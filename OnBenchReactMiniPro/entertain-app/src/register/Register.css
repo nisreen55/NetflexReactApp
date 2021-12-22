@@ -1,0 +1,90 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+ /* background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");*/
+
+  /*background: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.etsystatic.com%2F27390177%2Fc%2F959%2F763%2F0%2F0%2Fil%2Fce11f2%2F3175317371%2Fil_340x270.3175317371_89v5.jpg&imgrefurl=https%3A%2F%2Fwww.etsy.com%2Fmarket%2Fhip_wallpaper&tbnid=7vfezruJs_A5QM&vet=12ahUKEwili4XB3un0AhURBKwKHTY0ACAQMygsegUIARDiAQ..i&docid=r0bCs8arzudkuM&w=340&h=270&q=cdn%20hipwallpaper&ved=2ahUKEwili4XB3un0AhURBKwKHTY0ACAQMygsegUIARDiAQ");*/
+}
+/*.top {
+
+}*/
+
+.wrapper {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-size: cover;
+  position: relative;
+}
+
+.login__button {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.h2 {
+  margin: 20px;
+}
+.logo {
+  height: 40px;
+}
+
+.p {
+  font-size: 20px;
+}
+
+.input {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.in {
+  height: 100%;
+  flex: 3;
+  border: none;
+  padding: 0 10px;
+}
+.register__button {
+  flex: 3;
+  height: 100%;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}

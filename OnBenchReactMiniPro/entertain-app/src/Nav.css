@@ -1,0 +1,141 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+
+  /*display: flex;
+  justify-content: space-between;*/
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+ 
+}
+
+.nav__black {
+  background-color: #111;
+}
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.profileUserImg {
+  width: 150px;
+  height: 50px;
+
+  border: 6px solid maroon;
+}
+.topLogoImg {
+  width: 40px;
+  height: 40px;
+  background: rgba(77, 77, 77, 0);
+  cursor: pointer;
+  border: 3px solid rgb(243, 243, 239);
+  border-radius: 50%;
+  object-fit: cover;
+
+  margin: auto;
+}
+.topNavBarContainer {
+  height: 60px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.topLogoImg {
+  width: 40px;
+  height: 40px;
+  background: rgba(77, 77, 77, 0);
+  cursor: pointer;
+}
+
+.topNavBarLeft {
+  font-size: 40px;
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+
+.topNavBarCenter {
+  flex: 4;
+}
+
+.navBarLogo {
+  cursor: pointer;
+}
+
+/* .searchBar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+} */
+
+.searchIcon {
+  font-size: 18px !important;
+  color: black;
+  margin-left: 10px;
+}
+.searchInput {
+  width: 95%;
+  outline: none;
+  border: none;
+}
+.topNavBarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.topNavBarLinks {
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-around;
+  display: "flex";
+}
+
+.toplink {
+  margin-right: 40px;
+  display: "flex";
+  align-items: "center";
+}
+.topNavBarIcons {
+  display: flex;
+}
+
+.topNavBarIcon {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.topNavBarPic {
+  width: 32px;
+  height: 32px;
+}
+
+.tapNavBarName {
+  margin-right: -30px;
+}
+.ignorThis {
+  background-image: linear-gradient(red, Maroon, black);
+}
+
